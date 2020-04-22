@@ -2,6 +2,7 @@ import React from "react"
 
 import Intro from "../components/intro";
 import ProjectCard from "../components/projectCard";
+import ContactForm from "../components/contactForm";
 
 import "../assets/tailwind.css"
 
@@ -11,15 +12,16 @@ const IndexPage = () => (
       <Intro />
 
       <h1 className="mb-5 secondary-heading">Projects</h1>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-2">
-        <ProjectCard title="Eat Da Burger" />
-        <ProjectCard title="Code Quiz" />
-        <ProjectCard title="Weather Dashboard" />
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
         <ProjectCard title="Poddler" />
+        <ProjectCard title="Eat Da Burger" />
+        <ProjectCard title="Weather Dashboard" />
+        <ProjectCard title="RPS" />
         <ProjectCard title="Code Quiz" />
         <ProjectCard title="Some Other" />
       </div>
 
+      <ContactForm />
     </div>
   </div>
 )

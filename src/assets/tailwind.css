@@ -8,11 +8,16 @@ body {
 	font-family: 'Proxima Nova';
 }
 
-.intro {
+.intro,
+.contact {
 	margin: 130px auto;
 }
 
 .secondary-heading {
 	font-weight: 900;
 	font-size: 28px;
+}
+
+.icon:hover {
+	color: #bd2626;
 }
