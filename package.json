@@ -12,6 +12,7 @@
 		"gatsby-plugin-postcss": "^2.2.3",
 		"gatsby-plugin-react-helmet": "^3.2.2",
 		"gatsby-plugin-sharp": "^2.5.3",
+		"gatsby-plugin-web-font-loader": "^1.0.4",
 		"gatsby-source-filesystem": "^2.2.2",
 		"gatsby-transformer-sharp": "^2.4.3",
 		"prop-types": "^15.7.2",
@@ -25,7 +26,9 @@
 		"prettier": "2.0.4",
 		"tailwindcss": "^1.2.0"
 	},
-	"keywords": [ "gatsby" ],
+	"keywords": [
+		"gatsby"
+	],
 	"license": "MIT",
 	"scripts": {
 		"build": "gatsby build",

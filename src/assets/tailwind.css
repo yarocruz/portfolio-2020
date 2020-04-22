@@ -1,3 +1,18 @@
+@import url("https://use.typekit.net/nsn3gvu.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+	font-family: 'Proxima Nova';
+}
+
+.intro {
+	margin: 130px auto;
+}
+
+.secondary-heading {
+	font-weight: 900;
+	font-size: 28px;
+}
