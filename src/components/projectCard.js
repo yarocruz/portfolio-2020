@@ -31,7 +31,7 @@ const projectCard = (props) => {
 
             </p>
             <div className="absolute w-full bottom-0 right-0 bg-gray-200 text-center text-gray-600 py-3">
-                <Link className="hover:text-blue-500" to="/projectname">
+                <Link className="hover:text-blue-500" to={props.pageRoute}>
                     <p>Learn More</p>
                 </Link>
             </div>

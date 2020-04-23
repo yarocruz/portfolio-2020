@@ -9,13 +9,18 @@ body {
 }
 
 .intro,
-.contact {
+.contact,
+.page {
 	margin: 130px auto;
 }
 
 .secondary-heading {
 	font-weight: 900;
 	font-size: 28px;
+}
+
+p {
+	font-size: 18px;
 }
 
 .icon:hover {
