@@ -21,7 +21,7 @@ const contactForm = () => (
             </a>
         </div>
         <p className="font-bold my-3">Have a job for me? Want to ask me something?</p>
-        <form className="max-w-md">
+        <form className="max-w-md" action="mailto:yarocruz@gmail.com" method="POST" encType="multipart/form-data">
             <input className="bg-gray-100 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 my-2 text-gray-500 italic  leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="inline-full-name" type="text" placeholder="enter your name" />
             <input className="bg-gray-100 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 my-2 text-gray-500 italic leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="text" placeholder="type in an email" />
             <textarea className="bg-gray-100 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 my-2 text-gray-500 italic leading-tight focus:outline-none focus:bg-white focus:border-gray-500" rows="7" cols="10" id="message" type="text" placeholder="be brief or be funny" />
