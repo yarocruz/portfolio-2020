@@ -10,7 +10,7 @@ const projectCard = (props) => {
     return (
         <div className="relative px-6 py-8 bg-gray-100 rounded shadow-md">
             <div className="flex items-center justify-between mb-8">
-                <h1 style={{ fontWeight: `600` }}>{props.title}</h1>
+                <h1 style={{ fontWeight: `600`, fontSize: `18px` }}>{props.title}</h1>
                 <div className="flex">
                     <a href={props.githubLink}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15.66" viewBox="0 0 15 14.66">

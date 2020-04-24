@@ -31,15 +31,15 @@ const PoddlerPage = () => (
 
             <h1 className="secondary-heading pr-5">Technologies</h1>
 
-            <p className="max-w-3xl my-5">Poodler is a full stack CRUD web app that uses Node and Express with MySQL and Sequelize for the database management.
+            <p className="max-w-3xl my-5">Poddler is a full stack CRUD web app that uses Node and Express with MySQL and Sequelize for the database management.
             It uses Handlebars as the templating engine, with Tailwindcss for the styling, and jQuery on the front end.</p>
 
             <h1 className="secondary-heading pr-5">Problems and Solutions</h1>
 
-            <p className="max-w-3xl my-5">Poodler was the second group project for UCF’s Coding Bootcamp. Me and three other people collaborated on the project through Git and Github.
+            <p className="max-w-3xl my-5">Poddler was the second group project for UCF’s Coding Bootcamp. Me and three other people collaborated on the project through Git and Github.
             While I worked mostly on the front end, I also worked a bit on the backend retructuring a bit some of the table schemas and associations.</p>
 
-            <Link className="shadow bg-gray-800 hover:bg-gray-900 focus:shadow-outline focus:outline-none text-white text-sm py-2 px-4 rounded" to="/">Go back to the homepage</Link>
+            <Link className="shadow bg-gray-800 hover:bg-gray-900 focus:shadow-outline focus:outline-none text-white text-sm py-2 px-4 rounded" to="/">Back to Main Page</Link>
         </div>
     </div>
 )

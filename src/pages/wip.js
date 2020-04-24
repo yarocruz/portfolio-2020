@@ -1,9 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import poddlerPic from "../images/poddler-screenshot.png";
-
-
 const WIPPage = () => (
     <div className="container text-gray-900 mx-auto mx-10 my-10">
         <div className="page p-5">
