@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 body {
-	font-family: 'Proxima Nova';
+	font-family: proxima-nova, sans-serif;
 }
 
 .intro,
