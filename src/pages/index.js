@@ -55,7 +55,6 @@ const IndexPage = () => (
         />
         <ProjectCard
           title="RPS"
-          title="Code Quiz"
           githubLink="https://github.com/yarocruz/rps"
           demoLink="https://yarocruz.github.io/rps/"
           description="Rock, Paper, Scissors game. Math.random, humble beginnings."
