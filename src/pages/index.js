@@ -34,7 +34,7 @@ const IndexPage = () => (
             demoLink="https://aqueous-beyond-86348.herokuapp.com/"
             description="Eat Da Burger is a full stack web application that lets you add burgers and then devour them like an animal."
             tech={["Express", "MySQL", "Bootstrap"]}
-            pageRoute="/wip/"
+            pageRoute="/eatDaBurger/"
           />
           <ProjectCard
             title="Weather Dashboard"
@@ -42,7 +42,7 @@ const IndexPage = () => (
             demoLink="https://yarocruz.github.io/weather-dashboard/"
             description="Front end web application that uses OpenWeatherMap's API to fetch weather data."
             tech={["jQuery", "Bootstrap"]}
-            pageRoute="/wip/"
+            pageRoute="/weatherDashboard/"
           />
           <ProjectCard
             title="Note Taker"
