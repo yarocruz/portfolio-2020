@@ -58,7 +58,7 @@ const IndexPage = () => (
             demoLink="https://yarocruz.github.io/code-quiz/"
             description="Quiz app, specifically a code quiz app that tests your knowdlege on web development."
             tech={["HTML", "CSS", "Vanilla JS"]}
-            pageRoute="/wip/"
+            pageRoute="/codeQuiz/"
           />
           <ProjectCard
             title="RPS"
@@ -66,7 +66,7 @@ const IndexPage = () => (
             demoLink="https://yarocruz.github.io/rps/"
             description="Rock, Paper, Scissors game. Math.random, humble beginnings."
             tech={["HTML", "CSS", "Vanilla JS"]}
-            pageRoute="/wip/"
+            pageRoute="/rps/"
           />
         </div>
 
