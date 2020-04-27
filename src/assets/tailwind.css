@@ -11,7 +11,7 @@ body {
 .intro,
 .contact,
 .page {
-	margin: 130px auto;
+	margin: 90px auto 120px;
 }
 
 .secondary-heading {
@@ -21,6 +21,10 @@ body {
 
 p {
 	font-size: 18px;
+}
+
+.icon {
+	transition: all ease-out 300ms;
 }
 
 .icon:hover {

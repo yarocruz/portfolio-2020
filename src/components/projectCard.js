@@ -30,8 +30,8 @@ const projectCard = (props) => {
                 {items}
 
             </p>
-            <div className="absolute w-full bottom-0 right-0 bg-gray-200 hover:bg-gray-400 text-center text-gray-600 py-3">
-                <Link className="hover:text-gray-800" to={props.pageRoute}>
+            <div className="absolute w-full bottom-0 right-0 transition duration-500 ease-in-out bg-gray-200 hover:bg-gray-400 text-center text-gray-600 hover:text-blue-800 py-3">
+                <Link to={props.pageRoute}>
                     <p>{`Learn More ${String.fromCharCode(8594)}`}</p>
                 </Link>
             </div>
