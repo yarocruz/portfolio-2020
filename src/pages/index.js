@@ -19,7 +19,7 @@ const IndexPage = () => (
         <Intro />
 
         <h1 className="mb-5 secondary-heading">Projects</h1>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           <ProjectCard
             title="Poddler"
             githubLink="https://github.com/yarocruz/project-2"
@@ -50,7 +50,7 @@ const IndexPage = () => (
             demoLink="https://secret-ravine-58567.herokuapp.com/"
             description="Simple note taker app that for adding notes."
             tech={["Nodejs", "Express", "JSON"]}
-            pageRoute="/wip/"
+            pageRoute="/noteTaker/"
           />
           <ProjectCard
             title="Code Quiz"
