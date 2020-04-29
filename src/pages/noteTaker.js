@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import noteTakerPic from "../images/note-taker-screenshot.png";
 
+import "../assets/tailwind.css"
 
 const NoteTakerPage = () => (
     <div className="container text-gray-900 mx-auto mx-10 my-10">

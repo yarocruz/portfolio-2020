@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import poddlerPic from "../images/poddler-screenshot.png";
 
+import "../assets/tailwind.css"
 
 const PoddlerPage = () => {
     return (

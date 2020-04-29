@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import burgerPic from "../images/burger-screenshot.png";
 
+import "../assets/tailwind.css"
 
 const EatDaBurgerPage = () => {
     return (

@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import weatherPic from "../images/weather-dashboard-screenshot.png";
 
+import "../assets/tailwind.css"
 
 const WeatherDashboardPage = () => (
     <div className="container text-gray-900 mx-auto mx-10 my-10">

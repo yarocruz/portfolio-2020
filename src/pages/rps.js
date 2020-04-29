@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import RPSPic from "../images/rps-screenshot.png";
 
+import "../assets/tailwind.css"
 
 const RPSPage = () => (
     <div className="container text-gray-900 mx-auto mx-10 my-10">

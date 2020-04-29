@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import codeQuizPic from "../images/code-quiz-screenshot.png";
 
+import "../assets/tailwind.css"
 
 const CodeQuizPage = () => (
     <div className="container text-gray-900 mx-auto mx-10 my-10">
