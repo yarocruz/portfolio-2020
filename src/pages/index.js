@@ -21,6 +21,14 @@ const IndexPage = () => (
         <h1 className="mb-5 secondary-heading">Projects</h1>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           <ProjectCard
+            title="Employee Directory"
+            githubLink="https://github.com/yarocruz/react-employee-directory"
+            demoLink="https://yarocruz.github.io/react-employee-directory//"
+            description="React application that lets you quickly view and sort employees."
+            tech={["React", "Tailwindcss"]}
+            pageRoute="/employee-directory/"
+          />
+          <ProjectCard
             title="Poddler"
             githubLink="https://github.com/yarocruz/project-2"
             demoLink="https://sheltered-gorge-46855.herokuapp.com/"
@@ -32,7 +40,7 @@ const IndexPage = () => (
             title="Eat Da Burger"
             githubLink="https://github.com/yarocruz/eat-da-burger"
             demoLink="https://aqueous-beyond-86348.herokuapp.com/"
-            description="Eat Da Burger is a full stack web application that lets you add burgers and then devour them like an animal."
+            description="Full stack web application that lets you add burgers and then devour them like an animal."
             tech={["Express", "MySQL", "Bootstrap"]}
             pageRoute="/eatDaBurger/"
           />
@@ -43,14 +51,6 @@ const IndexPage = () => (
             description="Front end web application that uses OpenWeatherMap's API to fetch weather data."
             tech={["jQuery", "Bootstrap"]}
             pageRoute="/weatherDashboard/"
-          />
-          <ProjectCard
-            title="Note Taker"
-            githubLink="https://github.com/yarocruz/note-taker"
-            demoLink="https://secret-ravine-58567.herokuapp.com/"
-            description="Simple note taker app that for adding notes."
-            tech={["Nodejs", "Express", "JSON"]}
-            pageRoute="/noteTaker/"
           />
           <ProjectCard
             title="Code Quiz"
