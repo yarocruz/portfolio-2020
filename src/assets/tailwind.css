@@ -14,6 +14,10 @@ body {
 	margin: 90px auto 120px;
 }
 
+.intro {
+	margin-top: 20px;
+}
+
 .secondary-heading {
 	font-weight: 900;
 	font-size: 28px;

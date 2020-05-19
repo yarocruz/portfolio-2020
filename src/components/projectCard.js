@@ -1,15 +1,13 @@
 import React from 'react';
 import { Link } from "gatsby"
 
-//import chevronRight from "../images/icon-cheveron-right.svg";
-
 const projectCard = (props) => {
     const items = props.tech && props.tech.map((item, i) => {
         return <span key={i} className="pr-5">{item}</span>
     });
     return (
-        <div className="relative px-6 py-8 bg-gray-100 rounded shadow-md">
-            <div className="flex items-center justify-between mb-8">
+        <div className="relative py-8 bg-gray-100 rounded shadow-md">
+            <div className="flex items-center justify-between mb-8 px-6">
                 <h1 style={{ fontWeight: `600`, fontSize: `18px` }}>{props.title}</h1>
                 <div className="flex">
                     <a href={props.githubLink}>
@@ -24,8 +22,8 @@ const projectCard = (props) => {
                     </a>
                 </div>
             </div>
-            <p className="mb-3">{props.description}</p>
-            <p className="mb-10" style={{ fontWeight: `300`, fontStyle: `italic` }}>
+            <p className="mb-3 px-6">{props.description}</p>
+            <p className="mb-10 ml-6" style={{ fontWeight: `300`, fontStyle: `italic` }}>
 
                 {items}
 
