@@ -3,6 +3,7 @@ import React from 'react';
 const contactForm = () => (
     <div className="contact">
         <h1 className="secondary-heading">Contact</h1>
+        <h2>yarocruz@gmail.com</h2>
         <div className="iconLinks flex items-center my-2">
             <a href="https://github.com/yarocruz" className="mr-6">
                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15.66" viewBox="0 0 15 14.66">
