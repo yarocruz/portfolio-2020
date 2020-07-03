@@ -29,12 +29,12 @@ const IndexPage = () => (
             pageRoute="/employee-directory/"
           />
           <ProjectCard
-            title="Poddler"
-            githubLink="https://github.com/yarocruz/project-2"
-            demoLink="https://sheltered-gorge-46855.herokuapp.com/"
-            description="Poddler is a user driven Podcast Directory for podcast enthusiasts."
-            tech={["Express", "Handlebars", "Tailwindcss"]}
-            pageRoute="/poddler/"
+            title="Austerus"
+            githubLink="https://github.com/yarocruz/austerus/tree/real-austerus"
+            demoLink="http://jayc1.sgedu.site/"
+            description="A Minimalist Portfolio WordPress Theme"
+            tech={["WordPress", "PHP", "JavaScript"]}
+            pageRoute="/austerus/"
           />
           <ProjectCard
             title="Eat Da Burger"
