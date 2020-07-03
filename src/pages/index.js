@@ -22,8 +22,8 @@ const IndexPage = () => (
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           <ProjectCard
             title="Employee Directory"
-            githubLink="https://github.com/yarocruz/react-employee-directory"
-            demoLink="https://yarocruz.github.io/react-employee-directory//"
+            githubLink="https://github.com/yarocruz/react-employee-directory/"
+            demoLink="https://yarocruz.github.io/react-employee-directory/"
             description="React application that lets you quickly view and sort employees."
             tech={["React", "Tailwindcss"]}
             pageRoute="/employee-directory/"
