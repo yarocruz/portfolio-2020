@@ -7,7 +7,7 @@ import "../assets/tailwind.css"
 const Intro = () => (
     <div className="intro">
         <img src={profilePic} alt="profile" style={{ marginLeft: `-20px` }} />
-        <h1 style={{ fontWeight: `900`, fontSize: `38px` }}>Yarosky Cruz</h1>
+        <h1 style={{ fontWeight: `900`, fontSize: `38px` }}>Jay Cruz</h1>
         <h2 style={{ fontWeight: `500`, fontSize: `24px` }}>Web Developer</h2>
         <div className="iconLinks flex items-center my-2">
             <a href="https://github.com/yarocruz" className="mr-6">
@@ -27,9 +27,10 @@ const Intro = () => (
             </a>
         </div>
         <p className="my-5 leading-relaxed text-gray-800" style={{ fontWeight: `400`, fontSize: `18px`, maxWidth: `480px` }}>
-            Hello I’m Yarosky, pronounced <span className="italic text-gray-700 font-bold">yah-roh-ski</span>, but you can call me Jay.
-            I’m a Web Developer well versed in both stacks with a background in Design. I’m a coder with empathy for the user and I love building web apps that
-            are intuitive and a delight to use.</p>
+            Hello 👋 I’m a Web Developer based in Orlando, FL and I'm currently looking for opportunities to get paid to code.
+            I'm a 'full stack' developer, but building user interfaces is more of my jam and my go-to library has
+            been React. Be sure to checkout my projects below.
+        </p>
     </div>
 )
 

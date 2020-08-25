@@ -21,6 +21,14 @@ const IndexPage = () => (
         <h1 className="mb-5 secondary-heading">Projects</h1>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           <ProjectCard
+            title="Channel"
+            githubLink="https://github.com/yarocruz/channel"
+            demoLink="https://yarocruz.github.io/channel/"
+            description="Rss Reader web app built with React."
+            tech={["React", "Chakra UI"]}
+            pageRoute="/channel/"
+          />
+          <ProjectCard
             title="Employee Directory"
             githubLink="https://github.com/yarocruz/react-employee-directory/"
             demoLink="https://yarocruz.github.io/react-employee-directory/"
