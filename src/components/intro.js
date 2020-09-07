@@ -27,7 +27,7 @@ const Intro = () => (
             </a>
         </div>
         <p className="my-5 leading-relaxed text-gray-800" style={{ fontWeight: `400`, fontSize: `18px`, maxWidth: `480px` }}>
-            Hello 👋 I’m a Web Developer based in Orlando, FL and I'm currently looking for opportunities to get paid to code.
+            Hello <span role='img' aria-label='wave'>👋</span> I’m a Web Developer based in Orlando, FL and I'm currently looking for opportunities to get paid to code.
             I'm a 'full stack' developer, but building user interfaces is more of my jam and my go-to library has
             been React. Be sure to checkout my projects below.
         </p>
