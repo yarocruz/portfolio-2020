@@ -1,6 +1,6 @@
 import React from "react"
 
-import profilePic from "../images/profile-pic.png";
+import profilePic from "../images/portrait2021.png";
 
 import "../assets/tailwind.css"
 
@@ -27,9 +27,8 @@ const Intro = () => (
             </a>
         </div>
         <p className="my-5 leading-relaxed text-gray-800" style={{ fontWeight: `400`, fontSize: `18px`, maxWidth: `480px` }}>
-            Hello <span role='img' aria-label='wave'>👋</span> I’m a Web Developer based in Orlando, FL and I'm currently looking for opportunities to get paid to code.
-            I'm a 'full stack' developer, but building user interfaces is more of my jam and my go-to library has
-            been React. Be sure to checkout my projects below.
+            Hello <span role='img' aria-label='wave'>👋</span> I’m a Web Developer based in Orlando, FL. I dabble in client-side JavaScript to build websites and web apps.
+            My go-to library to build user interfaces for web applications has been React, but I also use Vue. Be sure to checkout my projects below.
         </p>
     </div>
 )
