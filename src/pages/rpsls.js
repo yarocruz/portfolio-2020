@@ -1,22 +1,22 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import employeeDirectory from "../images/employee-directory.png";
+import RPSLSPic from "../images/rspls-screenshot.png"
 
 import "../assets/tailwind.css"
 
-const CodeQuizPage = () => (
+const RPSLSPage = () => (
   <div className="container text-gray-900 mx-auto mx-10 my-10">
     <div className="page p-5">
       <div className="flex items-center mb-5">
-        <h1 className="secondary-heading pr-5">Employee Directory</h1>
+        <h1 className="secondary-heading pr-5">Rock Paper Scissors Lizard Spock</h1>
         <div className="flex">
-          <a href="https://github.com/yarocruz/react-employee-directory">
+          <a href="https://github.com/yarocruz/rpsls">
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15.66" viewBox="0 0 15 14.66">
               <path className="icon" id="Path_1" data-name="Path 1" d="M143.812,107.408a7.5,7.5,0,0,0-2.371,14.62c.373.069.511-.166.511-.364v-1.276c-2.086.46-2.528-1-2.528-1a2.008,2.008,0,0,0-.833-1.1c-.677-.46.055-.46.055-.46a1.579,1.579,0,0,1,1.147.774,1.6,1.6,0,0,0,2.183.626,1.593,1.593,0,0,1,.46-1c-1.667-.189-3.417-.833-3.417-3.707a2.9,2.9,0,0,1,.769-2.012,2.731,2.731,0,0,1,.074-1.985s.631-.2,2.063.769a7.1,7.1,0,0,1,3.758,0c1.432-.972,2.058-.769,2.058-.769a2.717,2.717,0,0,1,.078,1.985,2.9,2.9,0,0,1,.769,2.012c0,2.883-1.754,3.513-3.426,3.684a1.773,1.773,0,0,1,.511,1.381c0,1,0,1.814,0,2.058s.134.433.516.364a7.506,7.506,0,0,0-2.376-14.62Z" transform="translate(-136.302 -107.38)" fill="#2b3139" fillRule="evenodd" />
             </svg>
           </a>
-          <a href="https://yarocruz.github.io/react-employee-directory/" target="_blank" rel="noopener noreferrer" className="ml-3">
+          <a href="https://yarocruz.github.io/rpsls/" target="_blank" rel="noopener noreferrer" className="ml-3">
             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
               <path className="icon" id="icon-external-link" d="M15.444,5.652,7.433,13.663a.778.778,0,1,1-1.089-1.1l8-8H11.556a.778.778,0,0,1,0-1.556h4.667A.778.778,0,0,1,17,3.778V8.444a.778.778,0,1,1-1.556,0Zm-1.556,5.9a.778.778,0,0,1,1.556,0v3.889A1.556,1.556,0,0,1,13.889,17H4.556A1.556,1.556,0,0,1,3,15.444V6.111A1.56,1.56,0,0,1,4.556,4.556H8.444a.778.778,0,1,1,0,1.556H4.556v9.333h9.333Z" transform="translate(-3 -3)" fill="#2b3139" />
             </svg>
@@ -24,20 +24,35 @@ const CodeQuizPage = () => (
         </div>
       </div>
 
-      <img className="lg:max-w-3xl max-w-full mb-5 shadow" src={employeeDirectory} alt="screenshot of note taker applications" />
+      <img className="lg:max-w-3xl max-w-full mb-5 shadow" src={RPSLSPic} alt="screenshot of note taker applications" />
 
-      <p className="max-w-3xl my-5">This a React app that lets you view a list of employees, search for a specific employee, and sort the employee
-        by either name or department. When you search for an employee it will immediately give you a
-        result and clicking on the buttons will sort the employees either in ascending or descending order.</p>
+      <p className="max-w-3xl my-5">Rock Paper Scissors Lizard Spock is an expansion of the game Rock, Paper, Scissors. It was created by Sam Kass and Karen Bryla, but it was popularized in an episode of the Big Bang Theory called The Lizard-Spock expansion.
+        You can read a bit more about it at this <a href="https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock">website</a></p>
+
+      <h1 className="secondary-heading pr-5">The Rules</h1>
+
+      <ol className="list-decimal list-inside">
+        <li>Scissor cuts Paper</li>
+        <li>Paper covers Rock</li>
+        <li>Rock crushes Lizard</li>
+        <li>Lizard poisons Spock</li>
+        <li>Spock smashes Scissors</li>
+        <li>Scissors decapitates Lizard</li>
+        <li>Lizard eats Paper</li>
+        <li>Paper disproves Spock</li>
+        <li>Spock vaporizes Rock</li>
+        <li>(and as it always has) Rock crushes Scissors</li>
+      </ol>
 
       <h1 className="secondary-heading pr-5">Technologies</h1>
 
-      <p className="max-w-3xl my-5">Project bootstrapped with create-react-app. Uses Tailwindcss for styles.</p>
+      <p className="max-w-3xl my-5">I used Vue.js to build this project and quickly bootstrapped it with the Vue CLI. I had used Vue before, but this would be my first project we're I took Vue for a spin beyond what
+        I've learned from the docs and other intro tutorials.</p>
 
       <Link to="/" className="shadow bg-gray-100 hover:bg-gray-300 focus:shadow-outline focus:outline-none text-gray-600 hover:text-gray-800 text-sm py-2 px-4 mr-5 rounded">{`${String.fromCharCode(8592)} Back to Main Page`}</Link>
-      <Link to="/eatDaBurger" className="shadow bg-gray-100 hover:bg-gray-300 focus:shadow-outline focus:outline-none text-gray-600 hover:text-gray-800 text-sm py-2 px-4 rounded">{`See Next Project ${String.fromCharCode(8594)}`}</Link>
+      <Link to="/channel" className="shadow bg-gray-100 hover:bg-gray-300 focus:shadow-outline focus:outline-none text-gray-600 hover:text-gray-800 text-sm py-2 px-4 rounded">{`See Next Project ${String.fromCharCode(8594)}`}</Link>
     </div>
   </div>
 )
 
-export default CodeQuizPage
+export default RPSLSPage

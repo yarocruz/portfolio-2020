@@ -21,6 +21,14 @@ const IndexPage = () => (
         <h1 className="mb-5 secondary-heading">Projects</h1>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           <ProjectCard
+            title="RPSLS"
+            githubLink="https://github.com/yarocruz/rpsls"
+            demoLink="https://yarocruz.github.io/rpsls/"
+            description="Rock, Paper, Scissors, Lizard, Spock."
+            tech={["Vue", "CSS"]}
+            pageRoute="/rpsls/"
+          />
+          <ProjectCard
             title="Channel"
             githubLink="https://github.com/yarocruz/channel"
             demoLink="https://yarocruz.github.io/channel/"
@@ -35,14 +43,6 @@ const IndexPage = () => (
             description="React application that lets you quickly view and sort employees."
             tech={["React", "Tailwindcss"]}
             pageRoute="/employee-directory/"
-          />
-          <ProjectCard
-            title="Austerus"
-            githubLink="https://github.com/yarocruz/austerus/tree/real-austerus"
-            demoLink="http://jayc1.sgedu.site/"
-            description="A Minimalist Portfolio WordPress Theme"
-            tech={["WordPress", "PHP", "JavaScript"]}
-            pageRoute="/austerus/"
           />
           <ProjectCard
             title="Eat Da Burger"
@@ -67,14 +67,6 @@ const IndexPage = () => (
             description="Quiz app, specifically a code quiz app that tests your knowdlege on web development."
             tech={["HTML", "CSS", "Vanilla JS"]}
             pageRoute="/codeQuiz/"
-          />
-          <ProjectCard
-            title="RPS"
-            githubLink="https://github.com/yarocruz/rps"
-            demoLink="https://yarocruz.github.io/rps/"
-            description="Rock, Paper, Scissors game. Math.random, humble beginnings."
-            tech={["HTML", "CSS", "Vanilla JS"]}
-            pageRoute="/rps/"
           />
         </div>
 
