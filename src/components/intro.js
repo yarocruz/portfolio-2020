@@ -1,6 +1,6 @@
 import React from "react"
 
-import profilePic from "../images/portrait2021.png";
+import profilePic from "../images/portrait2021.jpg";
 
 import "../assets/tailwind.css"
 
