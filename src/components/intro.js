@@ -1,6 +1,6 @@
 import React from "react"
 
-import profilePic from "../images/portrait2021.jpg";
+import profilePic from "../images/portrait2021.png";
 
 import "../assets/tailwind.css"
 
@@ -8,7 +8,7 @@ const Intro = () => (
     <div className="intro">
         <img src={profilePic} alt="profile" style={{ marginLeft: `-20px` }} />
         <h1 style={{ fontWeight: `900`, fontSize: `38px` }}>Jay Cruz</h1>
-        <h2 style={{ fontWeight: `500`, fontSize: `24px` }}>Web Developer</h2>
+        <h2 style={{ fontWeight: `500`, fontSize: `24px` }}>Developer</h2>
         <div className="iconLinks flex items-center my-2">
             <a href="https://github.com/yarocruz" className="mr-6">
                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15.66" viewBox="0 0 15 14.66">
@@ -27,8 +27,9 @@ const Intro = () => (
             </a>
         </div>
         <p className="my-5 leading-relaxed text-gray-800" style={{ fontWeight: `400`, fontSize: `18px`, maxWidth: `480px` }}>
-            Hello <span role='img' aria-label='wave'>👋</span> I’m a Web Developer based in Orlando, FL. I dabble in client-side JavaScript to build websites and web apps.
-            My go-to library to build user interfaces for web applications has been React, but I also use Vue. Be sure to checkout my projects below.
+            Hello <span role='img' aria-label='wave'>👋</span> I’m a Software Developer based in Orlando, FL. I write client and server-side JavaScript to build websites and web
+          applications. The <strong>stacks</strong> I'm most experienced with are <strong>React</strong> with <strong>Node + Express</strong> with either <strong>Non-SQL</strong> or <strong>SQL</strong> DB's, but I can work with any
+            JS library or framework. I also dabble with Rust. 🦀
         </p>
     </div>
 )
