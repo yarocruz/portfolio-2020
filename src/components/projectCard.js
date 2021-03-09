@@ -2,20 +2,20 @@ import React from 'react';
 import { Link } from "gatsby"
 import { useSpring, animated } from 'react-spring'
 
-const calc = (x, y) => [-(y - window.innerHeight / 2) / 20, (x - window.innerWidth / 2) / 20, 1.1]
-const trans = (x, y, s) => `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`
+// const calc = (x, y) => [-(y - window.innerHeight / 2) / 20, (x - window.innerWidth / 2) / 20, 1.1]
+// const trans = (x, y, s) => `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`
 
 const ProjectCard = ({ tech, title, githubLink, demoLink, description, pageRoute }) => {
-    const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 350, friction: 40 } }))
+    // const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 350, friction: 40 } }))
     const items = tech && tech.map((item, i) => {
         return <span key={i} className="pr-5">{item}</span>
     });
     return (
-      <animated.div
-        onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
-        onMouseLeave={() => set({ xys: [0, 0, 1] })}
-        style={{ transform: props.xys.interpolate(trans) }}
-      >
+      // <animated.div
+      //   onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
+      //   onMouseLeave={() => set({ xys: [0, 0, 1] })}
+      //   style={{ transform: props.xys.interpolate(trans) }}
+      // >
         <div className="relative py-8 bg-gray-100 rounded shadow-md">
           <div className="flex items-center justify-between mb-8 px-6">
             <h1 style={{ fontWeight: `600`, fontSize: `18px` }}>{title}</h1>
@@ -44,7 +44,7 @@ const ProjectCard = ({ tech, title, githubLink, demoLink, description, pageRoute
             </Link>
           </div>
         </div>
-      </animated.div>
+      // </animated.div>
 
     )
 }
