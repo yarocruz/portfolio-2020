@@ -18,6 +18,10 @@ body {
 	margin-top: 20px;
 }
 
+.description:hover {
+	cursor: pointer;
+}
+
 .secondary-heading {
 	font-weight: 900;
 	font-size: 28px;

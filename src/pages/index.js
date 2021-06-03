@@ -8,6 +8,13 @@ import { Helmet } from "react-helmet";
 
 import "../assets/tailwind.css"
 
+import RSPLS from "../images/rspls-screenshot.png";
+import Channel from "../images/channel-screenshot.png";
+import Burger from "../images/burger-screenshot.png";
+import WeatherDashboard from "../images/weather-dashboard-screenshot.png";
+import CodeQuiz from "../images/code-quiz-screenshot.png";
+import employeeDirectory from "../images/employee-directory.png";
+
 const IndexPage = () => (
   <div>
     <Helmet>
@@ -18,25 +25,28 @@ const IndexPage = () => (
       <div className="p-6">
         <Intro />
 
-        <h1 className="mb-5 secondary-heading">Projects</h1>
+        <h1 className="mb-5 secondary-heading text-blue-900">Projects</h1>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           <ProjectCard
+            img={RSPLS}
             title="RPSLS"
             githubLink="https://github.com/yarocruz/rpsls"
             demoLink="https://yarocruz.github.io/rpsls/"
-            description="Rock, Paper, Scissors, Lizard, Spock."
+            description="An expanded adaptation on the Game Rock, Paper, Scissors built with Vue.js"
             tech={["Vue", "CSS"]}
             pageRoute="/rpsls/"
           />
+          {/*<ProjectCard*/}
+          {/*  img={Channel}*/}
+          {/*  title="Channel"*/}
+          {/*  githubLink="https://github.com/yarocruz/channel"*/}
+          {/*  demoLink="https://yarocruz.github.io/channel/"*/}
+          {/*  description="Rss Reader web app built with React."*/}
+          {/*  tech={["React", "Chakra UI"]}*/}
+          {/*  pageRoute="/channel/"*/}
+          {/*/>*/}
           <ProjectCard
-            title="Channel"
-            githubLink="https://github.com/yarocruz/channel"
-            demoLink="https://yarocruz.github.io/channel/"
-            description="Rss Reader web app built with React."
-            tech={["React", "Chakra UI"]}
-            pageRoute="/channel/"
-          />
-          <ProjectCard
+            img={employeeDirectory}
             title="Employee Directory"
             githubLink="https://github.com/yarocruz/react-employee-directory/"
             demoLink="https://yarocruz.github.io/react-employee-directory/"
@@ -45,6 +55,7 @@ const IndexPage = () => (
             pageRoute="/employee-directory/"
           />
           <ProjectCard
+            img={Burger}
             title="Eat Da Burger"
             githubLink="https://github.com/yarocruz/eat-da-burger"
             demoLink="https://aqueous-beyond-86348.herokuapp.com/"
@@ -53,6 +64,7 @@ const IndexPage = () => (
             pageRoute="/eatDaBurger/"
           />
           <ProjectCard
+            img={WeatherDashboard}
             title="Weather Dashboard"
             githubLink="https://github.com/yarocruz/weather-dashboard"
             demoLink="https://yarocruz.github.io/weather-dashboard/"
@@ -61,6 +73,7 @@ const IndexPage = () => (
             pageRoute="/weatherDashboard/"
           />
           <ProjectCard
+            img={CodeQuiz}
             title="Code Quiz"
             githubLink="https://github.com/yarocruz/code-quiz"
             demoLink="https://yarocruz.github.io/code-quiz/"

@@ -5,7 +5,7 @@ import { useSpring, animated } from 'react-spring'
 // const calc = (x, y) => [-(y - window.innerHeight / 2) / 20, (x - window.innerWidth / 2) / 20, 1.1]
 // const trans = (x, y, s) => `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`
 
-const ProjectCard = ({ tech, title, githubLink, demoLink, description, pageRoute }) => {
+const ProjectCard = ({ tech, title, githubLink, demoLink, description, pageRoute, img }) => {
     // const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 350, friction: 40 } }))
     const items = tech && tech.map((item, i) => {
         return <span key={i} className="pr-5">{item}</span>
@@ -17,8 +17,9 @@ const ProjectCard = ({ tech, title, githubLink, demoLink, description, pageRoute
       //   style={{ transform: props.xys.interpolate(trans) }}
       // >
         <div className="relative py-8 bg-gray-100 rounded shadow-md">
+          <img className="max-w-full p-4" src={img} alt="Application Screenshot"/>
           <div className="flex items-center justify-between mb-8 px-6">
-            <h1 style={{ fontWeight: `600`, fontSize: `18px` }}>{title}</h1>
+            <h1 className="text-blue-900 font-bold text-lg">{title}</h1>
             <div className="flex">
               <a href={githubLink}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15.66" viewBox="0 0 15 14.66">
@@ -33,7 +34,7 @@ const ProjectCard = ({ tech, title, githubLink, demoLink, description, pageRoute
             </div>
           </div>
           <p className="mb-3 px-6">{description}</p>
-          <p className="mb-10 ml-6" style={{ fontWeight: `300`, fontStyle: `italic` }}>
+          <p className="mb-10 ml-6 italic text-blue-300">
 
             {items}
 
