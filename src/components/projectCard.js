@@ -34,7 +34,7 @@ const ProjectCard = ({ tech, title, githubLink, demoLink, description, pageRoute
             </div>
           </div>
           <p className="mb-3 px-6">{description}</p>
-          <p className="mb-10 ml-6 italic text-blue-300">
+          <p className="mb-10 ml-6 italic text-blue-500">
 
             {items}
 

@@ -9,7 +9,7 @@ const CodeQuizPage = () => (
     <div className="container text-gray-900 mx-auto mx-10 my-10">
         <div className="page p-5">
             <div className="flex items-center mb-5">
-                <h1 className="secondary-heading pr-5">Code Quiz</h1>
+                <h1 className="secondary-heading pr-5 text-blue-900">Code Quiz</h1>
                 <div className="flex">
                     <a href="https://github.com/yarocruz/code-quiz">
                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15.66" viewBox="0 0 15 14.66">
@@ -27,7 +27,7 @@ const CodeQuizPage = () => (
             <img className="lg:max-w-3xl max-w-full mb-5 shadow" src={codeQuizPic} alt="screenshot of note taker applications" />
 
             <p className="max-w-3xl my-5">This is a quiz app, specifically a code quiz app that tests your knowdlege on web development.
-            It is also timed and for every wrong answer it will subtract time from the timer.</p>
+            It is also a timed quiz and for every wrong answer it will subtract time from the timer.</p>
 
             <p className="max-w-3xl my-5">To start the quiz you click on the start quiz button. It immediately presents the user with the first set of questions and starts the timer with a progress bar.
             When the user selects a question, it checks if it's a right or wrong answer. When a correct answer is selected it adds it to a score variable, which later gets added to local storage.
@@ -35,12 +35,12 @@ const CodeQuizPage = () => (
 
             <p className="max-w-3xl my-5">The users and scores keep getting added and retrieved from local storage, and are displayed on a separate page.</p>
 
-            <h1 className="secondary-heading pr-5">Technologies</h1>
+            <h1 className="secondary-heading pr-5 text-blue-900">Technologies</h1>
 
             <p className="max-w-3xl my-5">This project uses plain ol' JavaScript. There is a ton of DOM manipulation on this one. It uses the setInterval function for the timer and localStorage to capture user scores.
             Tons of for loops where used and many if statements as well. This project could use some refactoring.</p>
 
-            <h1 className="secondary-heading pr-5">Problems and Solutions</h1>
+            <h1 className="secondary-heading pr-5 text-blue-900">Problems and Solutions</h1>
 
             <p className="max-w-3xl my-5">Every part of this project was a challenge. Working with the setInterval function can be tricky, specially for when you need
             to stop it according to certain conditions. Another part that was challenging was its scope. The main JS file ended at about 200 lines of code. Everytime I started to lose track of which line started what,

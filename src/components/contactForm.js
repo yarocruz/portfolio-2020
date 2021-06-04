@@ -26,7 +26,7 @@ const contactForm = () => (
             <input className="bg-gray-100 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 my-2 text-gray-500 italic  leading-tight focus:outline-none focus:bg-white focus:border-gray-500" name="name" id="inline-full-name" type="text" placeholder="enter your name" />
             <input className="bg-gray-100 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 my-2 text-gray-500 italic leading-tight focus:outline-none focus:bg-white focus:border-gray-500" name="_replyto" id="email" type="text" placeholder="type in an email" />
             <textarea className="bg-gray-100 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 my-2 text-gray-500 italic leading-tight focus:outline-none focus:bg-white focus:border-gray-500" rows="7" cols="10" name="message" id="message" type="text" placeholder="be brief or be funny" />
-            <button className="shadow bg-blue-900 hover:bg-gray-900 focus:shadow-outline focus:outline-none text-white text-sm py-2 px-4 rounded" type="submit">
+            <button className="shadow bg-blue-900 hover:text-opacity-75 focus:shadow-outline focus:outline-none text-white text-sm py-2 px-4 rounded" type="submit">
                 Hit me Up
             </button>
         </form>

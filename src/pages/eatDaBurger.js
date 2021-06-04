@@ -10,7 +10,7 @@ const EatDaBurgerPage = () => {
         <div className="container text-gray-900 mx-auto mx-10 my-10">
             <div className="page p-5">
                 <div className="flex items-center mb-5">
-                    <h1 className="secondary-heading pr-5">Eat Da Burger</h1>
+                    <h1 className="secondary-heading pr-5 text-blue-900">Eat Da Burger</h1>
                     <div className="flex">
                         <a href="https://github.com/yarocruz/eat-da-burger">
                             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15.66" viewBox="0 0 15 14.66">
@@ -33,12 +33,12 @@ const EatDaBurgerPage = () => {
                 <p className="max-w-3xl my-5">This app was built using the MVC framework where an ORM file was used to make general purpose
             SQL queries that can later be reused and views folders for dynamic rendering of HTML.</p>
 
-                <h1 className="secondary-heading pr-5">Technologies</h1>
+                <h1 className="secondary-heading pr-5 text-blue-900">Technologies</h1>
 
                 <p className="max-w-3xl my-5">For the backend, this app was built with Node.js, Express, and MySQL. On the frontend it's using the templating engine Handlebars, I grabbed Bootsrap to pull in some components
             and do a simple layout, and finally it's grabbing the $.ajax method from jQuery.</p>
 
-                <h1 className="secondary-heading pr-5">Problems and Solutions</h1>
+                <h1 className="secondary-heading pr-5 text-blue-900">Problems and Solutions</h1>
 
                 <p className="max-w-3xl my-5">This was my first time building a full stack web application. A least officially the first
             that I've deployed. It was also my first deep dive into SQL and relational databases.</p>

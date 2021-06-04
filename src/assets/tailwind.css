@@ -42,3 +42,15 @@ p {
 li {
 	padding: 5px 0;
 }
+
+.text-blue-900  {
+	color: #105474;
+}
+
+.bg-blue-900 {
+	background-color: #105474;
+}
+
+.text-blue-500 {
+	color: #2b6cb0;
+}

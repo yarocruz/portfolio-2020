@@ -9,7 +9,7 @@ const CodeQuizPage = () => (
   <div className="container text-gray-900 mx-auto mx-10 my-10">
     <div className="page p-5">
       <div className="flex items-center mb-5">
-        <h1 className="secondary-heading pr-5">Employee Directory</h1>
+        <h1 className="secondary-heading pr-5 text-blue-900">Employee Directory</h1>
         <div className="flex">
           <a href="https://github.com/yarocruz/react-employee-directory">
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15.66" viewBox="0 0 15 14.66">
@@ -26,11 +26,11 @@ const CodeQuizPage = () => (
 
       <img className="lg:max-w-3xl max-w-full mb-5 shadow" src={employeeDirectory} alt="screenshot of note taker applications" />
 
-      <p className="max-w-3xl my-5">This a React app that lets you view a list of employees, search for a specific employee, and sort the employee
+      <p className="max-w-3xl my-5">This is a React app that lets you view a list of employees, search for a specific employee, and sort the employee
         by either name or department. When you search for an employee it will immediately give you a
         result and clicking on the buttons will sort the employees either in ascending or descending order.</p>
 
-      <h1 className="secondary-heading pr-5">Technologies</h1>
+      <h1 className="secondary-heading pr-5 text-blue-900">Technologies</h1>
 
       <p className="max-w-3xl my-5">Project bootstrapped with create-react-app. Uses Tailwindcss for styles.</p>
 

@@ -9,7 +9,7 @@ const RPSLSPage = () => (
   <div className="container text-gray-900 mx-auto mx-10 my-10">
     <div className="page p-5">
       <div className="flex items-center mb-5">
-        <h1 className="secondary-heading pr-5">Rock Paper Scissors Lizard Spock</h1>
+        <h1 className="secondary-heading pr-5 text-blue-900">Rock Paper Scissors Lizard Spock</h1>
         <div className="flex">
           <a href="https://github.com/yarocruz/rpsls">
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15.66" viewBox="0 0 15 14.66">
@@ -26,10 +26,10 @@ const RPSLSPage = () => (
 
       <img className="lg:max-w-3xl max-w-full mb-5 shadow" src={RPSLSPic} alt="screenshot of note taker applications" />
 
-      <p className="max-w-3xl my-5">Rock Paper Scissors Lizard Spock is an expansion of the game Rock, Paper, Scissors. It was created by Sam Kass and Karen Bryla, but it was popularized in an episode of the Big Bang Theory called The Lizard-Spock expansion.
+      <p className="max-w-3xl my-5">Rock, Paper, Scissors, Lizard, Spock is an expansion of the game Rock, Paper, Scissors. It was created by Sam Kass and Karen Bryla, but it was popularized in an episode of the Big Bang Theory called The Lizard-Spock expansion.
         You can read a bit more about it at this <a href="https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock">website</a></p>
 
-      <h1 className="secondary-heading pr-5">The Rules</h1>
+      <h1 className="secondary-heading pr-5 text-blue-900">The Rules</h1>
 
       <ol className="list-decimal list-inside">
         <li>Scissor cuts Paper</li>
@@ -44,7 +44,7 @@ const RPSLSPage = () => (
         <li>(and as it always has) Rock crushes Scissors</li>
       </ol>
 
-      <h1 className="secondary-heading pr-5">Technologies</h1>
+      <h1 className="secondary-heading pr-5 text-blue-900">Technologies</h1>
 
       <p className="max-w-3xl my-5">I used Vue.js to build this project and quickly bootstrapped it with the Vue CLI. I had used Vue before, but this would be my first project we're I took Vue for a spin beyond what
         I've learned from the docs and other intro tutorials.</p>

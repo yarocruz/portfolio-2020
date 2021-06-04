@@ -38,7 +38,7 @@ const Intro = () => {
     <div className="intro">
       <img src={profilePic} alt="profile" style={{ marginLeft: `-20px` }}/>
       <h1 className="text-blue-900 mb-0" style={{ fontWeight: `900`, fontSize: `48px` }}>Jay Cruz</h1>
-      <h2 onClick={stopInterval} title="Stop this!" className="text-blue-500 italic font-bold description" style={{ fontWeight: `900`, fontSize: `24px` }}>{description}</h2>
+      <h2 onClick={stopInterval} title="Stop this!" className="text-blue-500 italic font-bold description" style={{ fontWeight: `900`, fontSize: `22px` }}>{description}</h2>
       <div className="iconLinks flex items-center my-2">
         <a href="https://github.com/yarocruz" className="mr-6">
           <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15.66" viewBox="0 0 15 14.66">
@@ -66,9 +66,10 @@ const Intro = () => {
          style={{ fontWeight: `400`, fontSize: `18px`, maxWidth: `480px` }}>
         Hello <span role='img' aria-label='wave'>👋</span> I’m a Software Developer based in Orlando, FL. I write client
         and server-side JavaScript to build websites and web
-        applications. The <strong>stacks</strong> I'm most experienced with are <strong>React</strong> with <strong>Node +
-        Express</strong> with either <strong>Non-SQL</strong> or <strong>SQL</strong> DB's, but I can work with any
-        JS library or framework. I also dabble with Rust. 🦀
+        applications. I'm most experienced with <a className="text-blue-500" href="https://reactjs.org/">React</a> using <a className="text-blue-500" href="https://expressjs.com/">Node + Express</a> with either <a className="text-blue-500" href="https://www.mongodb.com/nosql-explained">Non-SQL</a> or <a
+        className="text-blue-500" href="https://en.wikipedia.org/wiki/SQL">SQL</a> Databases,
+        but I can work with any JS framework you throw at me. I also like to dabble with <a className="text-blue-500" href="">Python</a>🐍 and <a
+        className="text-blue-500" href="">Rust</a>. 🦀
       </p>
     </div>
   )

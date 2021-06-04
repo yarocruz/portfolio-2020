@@ -32,7 +32,7 @@ const IndexPage = () => (
             title="RPSLS"
             githubLink="https://github.com/yarocruz/rpsls"
             demoLink="https://yarocruz.github.io/rpsls/"
-            description="An expanded adaptation on the Game Rock, Paper, Scissors built with Vue.js"
+            description="An expanded adaptation of the Game Rock, Paper, Scissors built with Vue.js"
             tech={["Vue", "CSS"]}
             pageRoute="/rpsls/"
           />
