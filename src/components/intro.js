@@ -1,44 +1,16 @@
-import React, { useState } from "react"
-import useInterval from "../hooks/useInterval"
-
+import React from "react"
 import profilePic from "../images/portrait2021.png";
 
 import "../assets/tailwind.css"
 
 const Intro = () => {
-  let titles = [
-    'Developer',
-    'Software Developer',
-    'Software Engineer',
-    'Web Developer',
-    'Fullstack Web Developer',
-    'Front End Developer',
-    'Front End Engineer',
-    'Nice Human',
-    'Dog Owner',
-    'Runner',
-    'Guitar Strummer'
-  ]
-  let index = 0
 
-  const [description, setDescription] = useState('Developer')
-
-  const handleInterval = () => {
-    setDescription(titles[index])
-    if (index === titles.length - 1) {
-      index = 0
-    } else {
-      index++
-    }
-  }
-
-  const stopInterval = useInterval(handleInterval, 800)
 
   return (
     <div className="intro">
       <img src={profilePic} alt="profile" style={{ marginLeft: `-20px` }}/>
       <h1 className="text-blue-900 mb-0" style={{ fontWeight: `900`, fontSize: `48px` }}>Jay Cruz</h1>
-      <h2 onClick={stopInterval} title="Stop this!" className="text-blue-500 italic font-bold description" style={{ fontWeight: `900`, fontSize: `22px` }}>{description}</h2>
+      <h2 className="text-blue-500 italic font-bold description" style={{ fontWeight: `900`, fontSize: `22px` }}>Software Developer</h2>
       <div className="iconLinks flex items-center my-2">
         <a href="https://github.com/yarocruz" className="mr-6">
           <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15.66" viewBox="0 0 15 14.66">

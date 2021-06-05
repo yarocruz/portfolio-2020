@@ -9,7 +9,6 @@ import { Helmet } from "react-helmet";
 import "../assets/tailwind.css"
 
 import RSPLS from "../images/rspls-screenshot.png";
-import Channel from "../images/channel-screenshot.png";
 import Burger from "../images/burger-screenshot.png";
 import WeatherDashboard from "../images/weather-dashboard-screenshot.png";
 import CodeQuiz from "../images/code-quiz-screenshot.png";

@@ -21,13 +21,13 @@ const contactForm = () => (
                 </svg>
             </a>
         </div>
-        <p className="font-bold my-3 text-blue-900">Have a job for me? Want to ask me something?</p>
+        <p className="font-bold my-3 text-blue-900">Have a job for me?</p>
         <form className="max-w-md" action="https://formspree.io/xzbanwlp" method="POST">
-            <input className="bg-gray-100 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 my-2 text-gray-500 italic  leading-tight focus:outline-none focus:bg-white focus:border-gray-500" name="name" id="inline-full-name" type="text" placeholder="enter your name" />
-            <input className="bg-gray-100 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 my-2 text-gray-500 italic leading-tight focus:outline-none focus:bg-white focus:border-gray-500" name="_replyto" id="email" type="text" placeholder="type in an email" />
-            <textarea className="bg-gray-100 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 my-2 text-gray-500 italic leading-tight focus:outline-none focus:bg-white focus:border-gray-500" rows="7" cols="10" name="message" id="message" type="text" placeholder="be brief or be funny" />
+            <input className="bg-gray-100 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 my-2 text-gray-500 italic  leading-tight focus:outline-none focus:bg-white focus:border-gray-500" name="name" id="inline-full-name" type="text" placeholder="name" />
+            <input className="bg-gray-100 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 my-2 text-gray-500 italic leading-tight focus:outline-none focus:bg-white focus:border-gray-500" name="_replyto" id="email" type="text" placeholder="email" />
+            <textarea className="bg-gray-100 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 my-2 text-gray-500 italic leading-tight focus:outline-none focus:bg-white focus:border-gray-500" rows="7" cols="10" name="message" id="message" type="text" placeholder="message" />
             <button className="shadow bg-blue-900 hover:text-opacity-75 focus:shadow-outline focus:outline-none text-white text-sm py-2 px-4 rounded" type="submit">
-                Hit me Up
+               Submit
             </button>
         </form>
     </div>
