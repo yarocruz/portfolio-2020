@@ -8,6 +8,7 @@ import { Helmet } from "react-helmet";
 
 import "../assets/tailwind.css"
 
+import Blog from "../images/blog.png";
 import RSPLS from "../images/rspls-screenshot.png";
 import Burger from "../images/burger-screenshot.png";
 import WeatherDashboard from "../images/weather-dashboard-screenshot.png";
@@ -27,6 +28,15 @@ const IndexPage = () => (
         <h1 className="mb-5 secondary-heading text-blue-900">Projects</h1>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           <ProjectCard
+            img={Blog}
+            title="Blog"
+            githubLink="https://github.com/yarocruz/yarocruz.github.io/tree/v2"
+            demoLink="https://yarocruz.netlify.app/"
+            description="This is my blog. There are many like it. But this one is mine."
+            tech={["Eleventy", "Static Site Generator"]}
+            pageRoute="/blog/"
+          />
+          <ProjectCard
             img={RSPLS}
             title="RPSLS"
             githubLink="https://github.com/yarocruz/rpsls"
@@ -35,15 +45,6 @@ const IndexPage = () => (
             tech={["Vue", "CSS"]}
             pageRoute="/rpsls/"
           />
-          {/*<ProjectCard*/}
-          {/*  img={Channel}*/}
-          {/*  title="Channel"*/}
-          {/*  githubLink="https://github.com/yarocruz/channel"*/}
-          {/*  demoLink="https://yarocruz.github.io/channel/"*/}
-          {/*  description="Rss Reader web app built with React."*/}
-          {/*  tech={["React", "Chakra UI"]}*/}
-          {/*  pageRoute="/channel/"*/}
-          {/*/>*/}
           <ProjectCard
             img={employeeDirectory}
             title="Employee Directory"
