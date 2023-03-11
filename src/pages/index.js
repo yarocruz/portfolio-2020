@@ -55,15 +55,6 @@ const IndexPage = () => (
             pageRoute="/employee-directory/"
           />
           <ProjectCard
-            img={Burger}
-            title="Eat Da Burger"
-            githubLink="https://github.com/yarocruz/eat-da-burger"
-            demoLink="https://aqueous-beyond-86348.herokuapp.com/"
-            description="Full stack web application that lets you add burgers and then devour them like an animal."
-            tech={["Express", "MySQL", "Bootstrap"]}
-            pageRoute="/eatDaBurger/"
-          />
-          <ProjectCard
             img={WeatherDashboard}
             title="Weather Dashboard"
             githubLink="https://github.com/yarocruz/weather-dashboard"

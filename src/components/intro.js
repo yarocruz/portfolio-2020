@@ -36,9 +36,9 @@ const Intro = () => {
       </div>
       <p className="my-5 leading-relaxed text-gray-800"
          style={{ fontWeight: `400`, fontSize: `18px`, maxWidth: `480px` }}>
-        Hello <span role='img' aria-label='wave'>👋</span> Hello. I’m a Software Engineer based in Orlando, FL. I love seeing things come to life by typing some code and I thrive in solving problems. I’m skilled in Full-Stack Web Development using <a className="text-blue-500" href="https://reactjs.org/">React</a> with <a className="text-blue-500" href="https://expressjs.com/">Node + Express</a> with either Non-SQL<a className="text-blue-500" href="https://www.mongodb.com/nosql-explained">(MongoDB)</a> or SQL<a
+        Hello <span role='img' aria-label='wave'>👋</span> I’m a Software Engineer based in Orlando, FL. I love seeing things come to life by typing some code and I thrive in solving problems. I’m skilled in Full-Stack Web Development using <a className="text-blue-500" href="https://reactjs.org/">React</a> with <a className="text-blue-500" href="https://expressjs.com/">Node + Express</a> with either Non-SQL<a className="text-blue-500" href="https://www.mongodb.com/nosql-explained">(MongoDB)</a> or SQL<a
         className="text-blue-500" href="https://en.wikipedia.org/wiki/SQL">(Postgres)</a>.
-        I’m decent at <a className="text-blue-500" href="https://www.typescriptlang.org/">TypeScript</a> and I also dabble with<a className="text-blue-500" href="https://www.python.org/">Python</a>🐍 and <a
+        I’m decent at <a className="text-blue-500" href="https://www.typescriptlang.org/">TypeScript</a> and I also dabble with <a className="text-blue-500" href="https://www.python.org/">Python</a>🐍 and <a
         className="text-blue-500" href="https://www.rust-lang.org/">Rust</a>. 🦀
       </p>
     </div>
